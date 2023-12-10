@@ -1,0 +1,82 @@
+:root {
+    --cor-fundo: rgb(255, 252, 250);
+    --cor-header: rgba(61, 37, 133, 0.93);
+    --cor-fonte-header: rgb(235, 232, 240);
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    background: var(--cor-fundo);
+}
+
+code {
+    font-family: monospace;
+    font-size: 0.7rem;
+    
+}
+
+/*a {*/
+/* padding: 5px;*/
+/* width: 120px;*/
+/*  color: #140a48;*/
+/*  font-size: 1.2rem;*/
+/*  box-sizing: border-box;*/
+/*  border: outset 2px;*/
+/*  border-color: rgb(58, 13, 117);*/
+/*  background-color: rgba(223, 216, 244, 0.93);*/
+/*  text-decoration: none;   */
+/*}*/
+/*a:link{*/
+
+/*}*/
+.header{
+    margin: 0 auto;
+    height: 190px;
+    /*background-color: var(--cor-header);*/
+    background-image: url(../img/fundo_codigo_php.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    color: var(--cor-fonte-header);
+}
+.menu-header-item{
+    display: inline-block; 
+    padding: 1px 0 0 10px;
+}
+
+
+.container{
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.box-shadow{
+    /*box-shadow: 1px 1px 1px rgba(0,0,0, 0.2);*/
+}
+
+.text-center{
+    text-align: center;
+}
+.menu{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+.opt-menu{
+    display: inline-block;
+    width: 150px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.footer {
+
+    width: 100%;
+    padding: 10px 10px;
+    height:20px;
+    background-color: var(--cor-header);
+    color: var(--cor-fonte-header);
+}
